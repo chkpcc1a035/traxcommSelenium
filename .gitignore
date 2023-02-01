@@ -50,7 +50,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-
+captcha.png
 # Translations
 *.mo
 *.pot
@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+captcha.png
+.DS_Store
+/app/.DS_Store

@@ -9,13 +9,11 @@ import time
 import json
 import requests
 from collections import OrderedDict
-from ta_captcha_solver.ta_captcha_solver import TACaptchaSolver
-from RPA.Browser.Selenium import Selenium
 import base64
 class TraxcommSenleniumService():
 
     chrome = Selenium()
-    chromiumService = Service(r'./win_webdriver/chromedriver109')
+    chromiumService = Service(r'./linux_webdriver/chromedriver109')
     chrome = webdriver.Chrome(service=chromiumService)
     chrome.get("https://webportal.tgt.hk/customer/login/index.php")
 
